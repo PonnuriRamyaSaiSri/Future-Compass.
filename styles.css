@@ -1,0 +1,78 @@
+/* styles.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e6f4fb; /* soft light blue outer background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Quiz Container (Inner Box) */
+  #quiz {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #d9f0fb; /* slightly deeper light blue for contrast */
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 122, 204, 0.15);
+    padding: 40px 30px;
+    transition: 0.3s ease-in-out;
+    border: 2px solid #b3d9ef;
+  }
+  
+  /* Headings */
+  h1, h2 {
+    color: #007acc;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Question Text */
+  .question {
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #005f99;
+  }
+  
+  /* Option Styling */
+  .option {
+    background-color: #ffffff;
+    padding: 12px 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+    border: 1px solid #b3d9ef;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .option:hover {
+    background-color: #e0f5ff;
+    transform: scale(1.02);
+  }
+  
+  .option.selected {
+    background-color: #a8d4ef;
+    border-color: #007acc;
+    font-weight: bold;
+  }
+  
+  /* Button */
+  button {
+    background-color: #007acc;
+    color: white;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto 0;
+    transition: 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #005f99;
+    transform: scale(1.03);
+  }
+  
